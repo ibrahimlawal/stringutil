@@ -7,6 +7,7 @@ func TestReverse(t *testing.T) {
         in, want string
     }{
         {"Bismillah","hallimsiB"},
+        {"a","a"},
         {"Hello, 世界","界世 ,olleH"},
         {"",""},
     }
